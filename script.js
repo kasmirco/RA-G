@@ -349,7 +349,7 @@ function createMessage(text, type){
     if(type === "bot"){
 
         msg.innerHTML = `
-            <img src="../IMG/divine.jpg" class="pfp">
+            <img src="divine.jpg" class="pfp">
             <span>${formattedText}</span>
         `;
 
